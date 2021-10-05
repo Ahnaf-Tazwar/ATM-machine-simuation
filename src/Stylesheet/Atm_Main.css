@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 9, 2020, 7:03:10 PM
+    Author     : User
+*/
+
+.login{
+    -fx-background-color:  #89bef4;
+    -fx-background-size: 400%;
+    -fx-background-radius: 13px;
+    -fx-outline: 0;
+}
+.login:hover{
+    -fx-border-radius: 13px;
+    -fx-border-color: #234d6f;
+    -fx-background-color: #aacef7;
+    -fx-text-fill: #377eae;
+}
+.login:pressed{
+    -fx-background-color: #63aff0;
+    -fx-border-width: 2px;
+    -fx-font-style: italic;
+    -fx-font-size: 17px;
+    -fx-translate-y: 2px;
+}
+.logout{
+    -fx-background-color:  #2697BF;
+    -fx-background-size: 400%;
+    -fx-background-radius: 13px;
+    -fx-outline: 0;
+}
+.logout:hover{
+    -fx-border-radius: 13px;
+    -fx-border-color: #234d6f;
+    -fx-background-color: #aacef7;
+    -fx-text-fill: #377eae;
+}
+.logout:pressed{
+    -fx-background-color: #63aff0;
+    -fx-border-width: 2px;
+    -fx-font-style: italic;
+    -fx-font-size: 14px;
+    -fx-translate-y: 1px;
+}
+.btn{
+    -fx-background-color:  #D6A2E8;
+    -fx-background-size: 400%;
+    -fx-background-radius: 13px;
+    
+    -fx-outline: 0;
+}
+
+.root{
+    -fx-background-image: url(BackGround.jpeg);
+    -fx-background-size: cover;
+    -fx-background-position: center; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-attachment: fixed;
+    -fx-margin: 0px;
+    -fx-padding: 0px;
+    -fx-box-sizing: border-box;
+}

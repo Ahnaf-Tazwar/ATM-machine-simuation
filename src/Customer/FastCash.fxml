@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="522.0" prefWidth="668.0" stylesheets="@../Stylesheet/ALLMain.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Customer.FastCashController">
+   <children>
+      <Button layoutX="92.0" layoutY="86.0" mnemonicParsing="false" onAction="#fastCash1000ButtonOnClick" prefHeight="52.0" prefWidth="183.0" text="1000 Tk">
+         <font>
+            <Font name="Kanit SemiBold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="92.0" layoutY="346.0" mnemonicParsing="false" onAction="#fastCash20_000ButtonOnClick" prefHeight="52.0" prefWidth="183.0" text="20, 000 Tk">
+         <font>
+            <Font name="Kanit SemiBold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="92.0" layoutY="221.0" mnemonicParsing="false" onAction="#fastCash5000ButtonOnClick" prefHeight="52.0" prefWidth="183.0" text="5000 Tk">
+         <font>
+            <Font name="Kanit SemiBold Italic" size="18.0" />
+         </font>
+      </Button>
+      <ButtonBar layoutX="250.0" layoutY="94.0" prefHeight="40.0" prefWidth="200.0" />
+      <Button layoutX="390.0" layoutY="221.0" mnemonicParsing="false" onAction="#fastCash10_000ButtonOnClick" prefHeight="52.0" prefWidth="183.0" text="10, 000 Tk">
+         <font>
+            <Font name="Kanit SemiBold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="390.0" layoutY="346.0" mnemonicParsing="false" onAction="#fastCash40_000ButtonOnClick" prefHeight="52.0" prefWidth="183.0" text="40, 000 Tk">
+         <font>
+            <Font name="Kanit SemiBold Italic" size="18.0" />
+         </font>
+      </Button>
+    <Button layoutX="390.0" layoutY="92.0" mnemonicParsing="false" onAction="#fastCash2000ButtonOnClick" prefHeight="52.0" prefWidth="183.0" text="2000 Tk">
+         <font>
+            <Font name="Kanit SemiBold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="7.0" layoutY="487.0" mnemonicParsing="false" onAction="#backButtonOnClick" prefHeight="29.0" prefWidth="75.0" text="Back" />
+   </children>
+</AnchorPane>

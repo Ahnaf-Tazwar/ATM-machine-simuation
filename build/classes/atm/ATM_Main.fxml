@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="522.0" prefWidth="668.0" styleClass="root" stylesheets="@../Stylesheet/Atm_Main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atm.FXMLDocumentController">
+    <children>
+      <TextField fx:id="id1" alignment="CENTER" layoutX="202.0" layoutY="204.0" onKeyReleased="#id1Focus" prefHeight="33.0" prefWidth="65.0" />
+      <TextField fx:id="id2" alignment="CENTER" layoutX="279.0" layoutY="204.0" onKeyReleased="#id2Focus" prefHeight="33.0" prefWidth="65.0" />
+      <TextField fx:id="id3" alignment="CENTER" layoutX="356.0" layoutY="204.0" onKeyReleased="#id3Focus" prefHeight="33.0" prefWidth="65.0" />
+      <TextField fx:id="id4" alignment="CENTER" layoutX="435.0" layoutY="204.0" onKeyReleased="#id4Focus" prefHeight="33.0" prefWidth="65.0" />
+      <PasswordField fx:id="pf" alignment="CENTER" layoutX="244.0" layoutY="273.0" onKeyReleased="#logInFocus" prefHeight="33.0" prefWidth="180.0" promptText="Enter PIN">
+         <font>
+            <Font size="17.0" />
+         </font></PasswordField>
+      <Button fx:id="b" layoutX="277.0" layoutY="340.0" mnemonicParsing="false" onAction="#logInButtonOnClick" prefHeight="44.0" prefWidth="114.0" styleClass="login" stylesheets="@../Stylesheet/Atm_Main.css" text="LogIn" textFill="#1a3d54d9">
+         <font>
+            <Font name="Kanit Medium Italic" size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" alignment="CENTER" blendMode="SRC_ATOP" layoutX="180.0" layoutY="29.0" prefHeight="45.0" prefWidth="329.0" text="Welcome!" textFill="#cd103fc7">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" alignment="CENTER" contentDisplay="CENTER" layoutX="208.0" layoutY="458.0" prefHeight="33.0" prefWidth="296.0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
